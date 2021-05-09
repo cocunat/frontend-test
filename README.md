@@ -9,3 +9,7 @@ Una vez acabado compartir la URL y el repositorio.
 
 
 Puedes utilizar la API pública de https://pokeapi.co/
+
+
+### Bonus:
+En la página del listado de pokemons, añade lazy load a las imagenes de los Pokemons que no están en el "fold" de la pantalla.
