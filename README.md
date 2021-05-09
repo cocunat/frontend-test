@@ -1,5 +1,3 @@
-
-Continuar escribiendo
 # frontend-test
 
 Crea una web simple con Next.js con las siguientes partes:
