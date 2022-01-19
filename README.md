@@ -1,9 +1,9 @@
 # frontend-test
 
-Crea una web simple con Next.js con las siguientes partes:
+Crea una web simple con React.js con las siguientes partes:
 - Listado de Pokemons (foto y nombre): Ruta "/"
 - Detalles del pokemon: Ruta "/pokemons/ID"
-- La página de detalles tiene que cargar la información con SSR, pero una vez cargada hacer otra petición, esta vez de lado del cliente para buscar "Otros pokemon recomendados", puede ser un random.
+- Utiliza react hooks
 
 Una vez acabado compartir la URL y el repositorio.
 
@@ -12,4 +12,6 @@ Puedes utilizar la API pública de https://pokeapi.co/
 
 
 ### Bonus:
-En la página del listado de pokemons, añade lazy load a las imagenes de los Pokemons que no están en el "fold" de la pantalla.
+- Web deploy
+- Evitar que accesos a una pagina de detalles ya visitada vuelva a lanzar peticiones a la API.
+- Pre-cargar la informacion de las paginas de detalles de los pokemons que aparecen en el fold de la pantalla para que el primer acceso tampoco requiera de espera a la respuesta de la API.
